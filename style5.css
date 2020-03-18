@@ -1,0 +1,74 @@
+#background {
+  background-color: black;
+}
+
+.background-1 {
+  background: url(EarthResized.jpg) top no-repeat;
+  padding: 20px;
+}
+
+.background-2 {
+  /*background: url(Jupiter_30.jpg);
+  background-repeat: no-repeat; */
+}
+
+h1 { 
+  padding: 15px;
+  font-size: 45px;
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  text-shadow: 0 0 5px white;
+}
+
+p {
+  color: white;
+}
+
+.table {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  border: solid 1px;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px white;
+}
+
+.row-header {
+  border: solid 1px;
+  background-color: rgb(0,0,102);
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
+}
+
+.row-odd {
+  border: solid 1px;
+  background-color: rgb(230,230,230);
+  opacity: 0.75;
+  
+}
+
+.row-even {
+  border: solid 1px;
+  background-color: rgb(200,200,200);
+  opacity: 0.75;
+}
+
+.column-odd {
+  border: solid 1px;
+}
+
+.column-even {
+  border: solid 1px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: left;
+  padding: 2.5px 5px 2.5px 5px;
+  display: table-cell;
+  vertical-align: top;
+  font-size: 17.5px;
+}
